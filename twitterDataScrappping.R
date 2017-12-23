@@ -168,7 +168,7 @@ plot(mydend, type = "rectangle")
 #install.packages("ape")
 library("ape")
 
-#Different versions:
+#Different versions of dendrograms:
 plot(as.phylo(mydend), type = "unrooted")
 plot(as.phylo(mydend), type = "fan")
 plot(as.phylo(mydend), type = "radial")
